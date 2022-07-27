@@ -13,7 +13,6 @@ const error = (err) => {console.log("Error" + err);}
 
 const processPdf = (inputPdf) => {
     pdf_table_extractor(inputPdf, success, error);
-
 }
 
 const formatData = (data) => {
