@@ -1,4 +1,4 @@
-const libPdf = require("./pdfProcess")
+const libPdf = require("./lib/pdfProcess")
 
 const XLSX = require('xlsx')
 
@@ -19,11 +19,12 @@ const writeToExcel = (jsonData) => {
     XLSX.writeFile(wb, output)
 }
 
-libPdf.processPdf(inputPdf);
-setTimeout(() => {
-    pdfData.push(...libPdf.data);
-    writeToExcel(pdfData);
-}, 0);
+async function main() {
+   let result = await libPdf.processPdf(inputPdf);
+   pdfData.push(...result);
+   writeToExcel(pdfData);
+}
+main()
 
 
 
