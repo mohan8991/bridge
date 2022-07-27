@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mohan8991/bridge/issues"
   },
-  "homepage": "https://github.com/mohan8991/bridge#readme"
+  "homepage": "https://github.com/mohan8991/bridge#readme",
+  "dependencies": {
+    "pdf-table-extractor": "^1.0.3"
+  }
 }
