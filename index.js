@@ -1,16 +1,11 @@
 const libPdf = require("./lib/pdfProcess")
-
 const XLSX = require('xlsx')
-
 const fs = require('fs');
 
 const inputPdf = "data/foo.pdf";
 const output = "./output/test.xlsx";
 
 const pdfData = [];
-const writeToFile = (fileName, data) => {
-    fs.writeFile(fileName, JSON.stringify(data), () => {console.log("Done.")});
-}
 
 const writeToExcel = (jsonData) => {
     const ws = XLSX.utils.json_to_sheet(jsonData)
