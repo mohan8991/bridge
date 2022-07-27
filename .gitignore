@@ -1,3 +1,7 @@
+# Bridge
+data/
+output/
+
 # Logs
 logs
 *.log
