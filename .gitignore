@@ -1,6 +1,7 @@
 # Bridge
 data/
 output/
+out/
 
 # Logs
 logs
