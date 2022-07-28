@@ -2,10 +2,11 @@
   "name": "bridge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "electron/main.js",
   "scripts": {
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install", 
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "electron": "^19.0.10",
     "husky": "^8.0.1",
     "jest": "^28.1.3"
   }
