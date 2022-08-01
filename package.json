@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/mohan8991/bridge#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "electron-squirrel-startup": "^1.0.0",
     "pdf-table-extractor": "^1.0.3",
     "xlsx": "^0.18.5"
