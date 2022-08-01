@@ -11,7 +11,7 @@
     "make": "electron-forge make",
     "test:coverage": "jest --coverage",
     "clean-install": "npm run clean && npm install",
-    "clean": "rm -rf node_modules/ assets/ output/ out/",
+    "clean": "rm -rf node_modules/ assets/ output/ out/ coverage/",
     "cs": "rm -rf assets/ && npm run start"
   },
   "repository": {
