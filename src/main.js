@@ -7,7 +7,7 @@ function createWindow() {
   const win = new BrowserWindow(WINDOW_PREFERENCE)
 
   // Load the index.html of the app.
-  win.loadFile('electron/html/index.html')
+  win.loadFile('src/html/index.html')
 
   // Open the DevTools.
   win.webContents.openDevTools()

@@ -2,7 +2,7 @@
   "name": "bridge",
   "version": "1.0.0",
   "description": "Brdige",
-  "main": "electron/main.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "jest",
     "prepare": "husky install",

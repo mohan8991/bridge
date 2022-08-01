@@ -1,4 +1,3 @@
-// const { ipcRenderer } = require('electron');
 var uploadFile = document.getElementById('upload');
 
 //upon clicking upload file, request the file from the main process
