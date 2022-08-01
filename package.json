@@ -8,7 +8,11 @@
     "prepare": "husky install",
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "test:coverage": "jest --coverage",
+    "clean-install": "npm run clean && npm install",
+    "clean": "rm -rf node_modules/ assets/ output/ out/",
+    "cs": "rm -rf assets/ && npm run start"
   },
   "repository": {
     "type": "git",
